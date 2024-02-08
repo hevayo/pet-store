@@ -32,5 +32,5 @@ app.delete('/pets/:id', (req, res) => {
     res.status(200).send();
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = 3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
